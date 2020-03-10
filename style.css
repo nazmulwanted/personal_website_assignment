@@ -33,7 +33,9 @@ h2{
 }
 .half-width img{
     max-width:100%;
-    max-height:100%;
+    background-position:50% 50%;
+    display:inline-block;
+    background-size:100%;
 }
 section{
     max-height:100%;
@@ -58,6 +60,13 @@ section{
 .biography-section{
     background-image:url('images/biography-bg.png');
     background-repeat:no-repeat;
-    background-size:100%;
+    background-height:100%;
+    background-width:100%;
     overflow:auto;
+}
+#bio-para{
+    padding-left:5vw;
+}
+#bio-link{
+    margin-left:5vw;
 }
