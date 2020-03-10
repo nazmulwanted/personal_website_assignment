@@ -37,6 +37,11 @@ h2{
     display:inline-block;
     background-size:100%;
 }
+.latest-work-div{
+    max-height:100%;
+    float:left;
+    margin: auto;
+}
 section{
     max-height:100%;
     max-width:100%;
@@ -64,9 +69,18 @@ section{
     background-width:100%;
     overflow:auto;
 }
+.latest-work-section{
+    background-image:url('images/latest-work-bg.png');
+    background-repeat:no-repeat;
+    background-size:100%;
+    overflow:auto;
+}
 #bio-para{
     padding-left:5vw;
 }
 #bio-link{
     margin-left:5vw;
+}
+#latest-div-header h2{
+    text-align:center;
 }
