@@ -10,6 +10,7 @@ footer{
 footer p{
     font-family: 'Poppins';
     text-align:center;
+    color:grey;
 }
 h1{
     font-size:4.9vw;
@@ -64,6 +65,7 @@ section{
     font-weight:bold;
     padding:10px 30px;
     text-decoration:none;
+    display:inline-block;
 }
 .top-section{
     background-image:url('images/header-bg.png');
@@ -138,10 +140,32 @@ section{
     text-decoration:none;
 }
 .footer-elements{
-    margin:8% 25%;
-    width:50%;
+    margin:auto;
+    max-width:50%;
+    align:justify;
 }
 .footer-elements p{
     text-align:center;
     padding:10px;
+}
+.footer-link-div{
+    width:100%;
+    margin:auto;
+    align:center;
+}
+#footer-link-button{
+    background-color:#ff3385;
+    color:white;
+    border-radius:10px;
+    font-weight:bold;
+    padding:10vh 10vw;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    margin:auto;
+}
+#link-text-highlight{
+    font-size:3vh;
+    font-weight:bold;
+    font-height:0; 
 }
