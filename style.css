@@ -19,6 +19,15 @@ h1{
 h2{
     font-size:3.0vw;
 }
+.footer-elements h3{
+    text-align:center;
+    line-height:0px;
+    font-weight:700px;
+}
+.footer-elements h5{
+    text-align:center;
+    color:#595959;
+}
 .highlight{
     color:#ff3385;
 }
@@ -75,6 +84,12 @@ section{
     background-size:100%;
     overflow:auto;
 }
+.footer-section{
+    background-image:url('images/footer-bg.png');
+    background-repeat:no-repeat;
+    background-size:100%;
+    overflow:auto;
+}
 #bio-para{
     padding-left:5vw;
 }
@@ -82,6 +97,9 @@ section{
     margin-left:5vw;
 }
 #latest-div-header h2{
+    text-align:center;
+}
+#footer-header h2{
     text-align:center;
 }
 .latest-work-div * {
@@ -118,4 +136,12 @@ section{
 }
 .img-column a{
     text-decoration:none;
+}
+.footer-elements{
+    margin:8% 25%;
+    width:50%;
+}
+.footer-elements p{
+    text-align:center;
+    padding:10px;
 }
