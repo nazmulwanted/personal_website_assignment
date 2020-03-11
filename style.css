@@ -84,3 +84,18 @@ section{
 #latest-div-header h2{
     text-align:center;
 }
+.latest-work-div * {
+  box-sizing: border-box;
+}
+
+.img-column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.img-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
