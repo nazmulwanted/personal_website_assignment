@@ -162,10 +162,11 @@ section{
     text-decoration:none;
     text-align:center;
     display:block;
-    margin:auto;
+    margin:2% 20% 2% 20%;
 }
 #link-text-highlight{
     font-size:3vh;
     font-weight:bold;
     font-height:0; 
+    word-wrap:break-word;
 }
